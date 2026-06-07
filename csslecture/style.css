@@ -1,0 +1,29 @@
+/* universal selector */
+/* *{
+    color: red;
+} */
+
+/* tag selector */
+h1{
+    color: blue;
+    text-align: center;
+}                                                         
+
+/*  attribute selector*/
+/* a[title="This is google"]{
+    color: green;
+} */
+
+/* id selector */
+#idselector{
+    color: blue;
+    font-size: 50;
+}
+
+.classselector{
+    color: brown;
+    text-transform: capitalize;
+    font-size: 20px;
+    text-indent: 50px;
+}
+
