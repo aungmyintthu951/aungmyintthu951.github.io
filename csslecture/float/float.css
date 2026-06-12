@@ -1,0 +1,15 @@
+/* float right */
+.float_right_img{
+    width: 50%;
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+.float_left_img{
+    width: 50%;
+    float: left;
+}
+

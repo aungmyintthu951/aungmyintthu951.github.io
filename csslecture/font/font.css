@@ -1,0 +1,14 @@
+.online_font {
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: abc;
+    src: url(../Playwrite_GB_J/static/PlaywriteGBJ-Thin.ttf);
+}
+
+.offline_font {
+    font-family: abc;
+}

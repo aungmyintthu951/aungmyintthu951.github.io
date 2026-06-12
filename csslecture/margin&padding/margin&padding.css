@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.margin_one{
+    text-align: center;
+    margin: 10px 200px;
+}
+
+.margin_two{
+    border: 50px solid #0f0;
+    margin; 10px;
+}
