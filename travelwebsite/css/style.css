@@ -23,11 +23,10 @@
     width: 120px;
     height: 120px;
 }
-ul li{
-    display: inline-block;
-}
+
 .nav_bar ul li{
     margin-left: 30px;
+    display: inline-block;
 }
 .nav_item{
     text-decoration: none;
@@ -142,16 +141,294 @@ ul li{
     background-color: aliceblue;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 0px 1px 5px #000;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
     text-align: center;
-    margin: ;
 
  }
 
  .services_icon{
     color: #073260;
+    padding: 10px;
  }
 
-
-
  /* End Services */
+
+ /* Start Destination */
+
+.destination{
+    width: 80%;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.destination{
+    padding: 10px;
+}
+
+.destination_title{
+    margin: 10px;
+}
+
+.destination_line{
+    width: 130px;
+    height: 2px;
+    background-color: #000;
+    margin: 10px;
+    margin-bottom: 50px;
+}
+
+.destination_card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    padding: 10px;
+}
+
+.destination_img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.destination_card_child:hover .destination_img{
+    filter: brightness(0.7);
+}
+
+.destination_name{
+    position: relative;
+    top: -240px;
+    left: 30px;
+}
+
+.destination_card_child:hover .destination_name{
+    color: #fff;
+}
+
+.destination_name{
+    color:#073260 ;
+}
+
+ /* End Destination */
+
+ /* Start Package */
+
+ .package{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+ }
+
+ .package_title{
+    margin-top: 10px;
+ }
+
+ .package_line{
+    width: 130px;
+    height: 2px;
+    background-color: #000;
+    margin-top: 10px;
+ }
+
+ .package_card{
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+ }  
+
+ .package_card_child{
+    margin-top: 10px;
+    background-color: #f2f2f2;
+   
+ }
+
+ .package_img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+ }
+
+ .package_card_child h3{
+    padding: 10px;
+    font-size: 16px;
+ }
+
+ .package_card_child h3 span{
+    float: right;
+ }
+
+.package_book_now{
+    text-decoration: none;
+    float: right;
+    padding: 10px;
+    border: 2px solid #073260;
+    background-color: #073260;
+    color: #fff;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.package_card_child p{
+    padding: 10px;
+}
+
+.package_link{
+    overflow: hidden;
+}
+
+
+.package_link .package_img:hover{
+    transform: scale(1.1);
+}
+
+
+ /* End Package */
+
+ /* Start How is work */
+
+.how_is_work{
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+    padding: 50px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+
+.how_is_work_title{
+    text-align: center;
+}
+
+.how_is_work_line{
+    width: 130px;
+    margin: auto;
+    height: 2px;
+    background-color: #000;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.how_is_work_img{
+    float: right;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.how_is_work_card{
+    padding: 50px;
+}
+ 
+.how_is_work_card_child h2{
+    padding: 10px;
+
+}
+
+.how_is_work_card_child p{
+    padding: 0px 15px;
+}
+
+ /* End How is work */
+
+
+
+ /* Start Blog */
+
+ .blog{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+ }
+
+ .blog_line{
+    width: 110px;
+    height: 2px;
+    background-color: #000;
+    margin-top: 10px;
+    margin-bottom: 30px;
+ }
+
+ .blog_card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+
+ }
+
+ .blog_card_child{
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+ }
+
+ .blog_img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+ }
+
+.blog_card_child h2{
+    padding: 10px;
+}
+
+.blog_card_child p{
+ padding: 0 10px;
+ margin-bottom: 15px;
+}
+
+.blog_read_more{
+    font-size: 16px;
+    font-weight: bold;
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #073260;
+    padding: 12px 9px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.blog_read_more:hover{
+    background-color: #073260;
+    color: #fff;
+}
+
+/* End Blog */
+
+/* Start Footer */
+
+.footer{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    align-items: center;
+    padding: 0 150px;
+    box-shadow: 0 1px 5px #000;
+}
+
+.footer_img{
+    width: 150px;
+    height: 100px;
+}
+
+.footer_card h2{
+    margin: 10px 0;
+}
+
+.footer_des{
+    display: block;
+    text-decoration: none;
+    color: #073260;
+    font-size: 20px;
+}
+
+.footer_icon{
+    border: 2px solid #073260;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+/* End Footer */

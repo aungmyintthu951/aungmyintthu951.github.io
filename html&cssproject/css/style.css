@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: ;
+    src: url();
+}
+
+
+
+
+/* start nav */
+
+.nav_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 100px;
+    font-size: 25px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.nav_logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.nav_bar ul li{
+    display: inline-block;
+}
+
+.nav_link{
+    text-decoration: none;
+    padding: 0 15px;
+    color: #000;
+    font-weight: bold;
+}
+
+.nav_link:hover{
+    display: inline-block;
+    font-size: 35px;
+    transform: translateY(-5px);
+    transition: 0.5s;
+}
+
+.nav_login{
+    text-decoration: none;
+    border: 2px solid #000;
+    background-color: #000;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 10px 15px;
+    color: #fff;
+}
+
+.nav_login:hover{
+    display: inline-block;
+    font-size: 35px;
+    transform: translateY(-5px);
+    transition: 0.5s;
+}
+
+/* end nav */
+
+/* start banner */
+
+.banner{
+    width: 100%;
+}
+
+
+/* end banner */
+
+/* start footer */
+
+.footer{
+    padding: 100px;
+    background-color: #000;
+}
+
+.footer_logo{
+    width: 100px;
+    height: 100px;
+}
+
+.footer_contact{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* end footer */
