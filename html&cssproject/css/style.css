@@ -4,8 +4,12 @@
 }
 
 @font-face {
-    font-family: ;
-    src: url();
+    font-family: roboto;
+    src: url(../Jersey_25,Roboto_Slab/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf);
+}
+
+body{
+    font-family: roboto;
 }
 
 
@@ -25,7 +29,7 @@
 }
 
 .nav_logo{
-    width: 100px;
+    width: 130px;
     height: 100px;
     border-radius: 10px;
 }
@@ -43,7 +47,6 @@
 
 .nav_link:hover{
     display: inline-block;
-    font-size: 35px;
     transform: translateY(-5px);
     transition: 0.5s;
 }
@@ -59,39 +62,85 @@
     color: #fff;
 }
 
-.nav_login:hover{
-    display: inline-block;
-    font-size: 35px;
-    transform: translateY(-5px);
-    transition: 0.5s;
-}
-
 /* end nav */
 
 /* start banner */
 
 .banner{
     width: 100%;
+    box-shadow: 0 1px 30px rgba(0, 0, 0, 0.8);
 }
 
 
 /* end banner */
 
+/* start samsung */
+
+.samsung{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 20px;
+}
+
+.samsung_phone{
+    background-color: #fff;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.samsung_name{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.samsung_img{
+    width: 100%;
+}
+
+.old_price{
+    margin: 0 0 30px 100px;
+    text-decoration: line-through;
+}
+
+.new_price{
+    margin: 0 0 100px 100px;
+}
+
+
+/* end samsung */
+
 /* start footer */
 
 .footer{
-    padding: 100px;
-    background-color: #000;
+    margin-top: 50px;
+    padding: 50px 100px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
 }
 
 .footer_logo{
-    width: 100px;
+    width: 130px;
     height: 100px;
 }
 
 .footer_contact{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.footer_link{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
 
 /* end footer */
