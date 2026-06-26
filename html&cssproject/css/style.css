@@ -114,6 +114,56 @@ body{
 
 /* end samsung */
 
+/* start sign in */
+
+/* end sign in */
+
+.signin{
+    width: 40%;
+    text-align: center;
+    margin: 80px 30%;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+    padding: 80px 0;
+    border-radius: 10px;
+    /* background-color: #3c3c3c;*/
+    background: linear-gradient(#1c2a47,#454852,#757f95);
+
+}
+
+.signin h1{
+    color: #fff;
+}
+
+.email{
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+}
+
+.password{
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+}
+
+.btn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+
 /* start footer */
 
 .footer{
