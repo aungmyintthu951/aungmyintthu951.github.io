@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Properry</title>
+</head>
+<body>
+    <h1>property</h1>
+    
+    <h2 id="setTextNode"></h2>
+
+    <button onclick="setTextNode()">Set Text Node</button>  <br><br>
+    <button onclick="createElementlesson()">Crate Element</button>  
+    <script>
+
+        function setTextNode(){
+            let h2 = document.getElementById('setTextNode');
+            // h2.innerText = "hello world";
+
+            let textNode = document.createTextNode('hello world ');
+            h2.appendChild(textNode);
+        }
+
+
+        function createElementlesson(){
+            let h1 = document.createElement("h1");
+            h1.innerText = ("createElement");
+
+            document.body.appendChild(h1);
+        }
+
+        function createElement(){
+            let 
+        }
+    </script>
+
+</body>
+</html>
